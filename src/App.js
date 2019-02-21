@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 // import Example from './components/Example'
-import AnimatedList from './components/AnimatedList'
+// import AnimatedList from './components/AnimatedList'
+import SideMenu from './components/SideMenu/Example'
 import GlobalStyles from './global-styles'
 
 class App extends Component {
@@ -8,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <GlobalStyles />
-        <AnimatedList />
+        <SideMenu />
       </div>
     )
   }
